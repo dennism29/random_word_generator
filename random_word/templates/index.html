@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/generator_style.css' %}">
+</head>
+<body>
+    <div id="container">
+        <form action="generate/">
+            <h2>Random Word (attempt #{{request.session.iteration}})</h2>
+            <h1>{{request.session.random_word}}</h1><br>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+</body>
+</html>

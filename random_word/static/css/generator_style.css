@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container * {
+    margin: 10px
+}
+form {
+    text-align: center;
+}
+h1 {
+    border: 5px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px;
+    background-color: #bafcc3a8;
+}
+button {
+    font-size: 110%;
+    font-weight: 600;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+    background-image: linear-gradient(#9ef5a9a8,#4ceb61de);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
